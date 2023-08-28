@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-09-15 16:19:31.948293",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "repair_tolerence",
+  "full_warranty",
+  "warranty_start_date",
+  "warranty_end_date"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "repair_tolerence",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Customer Bearing Ratio"
+  },
+  {
+   "columns": 3,
+   "fieldname": "warranty_start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Warranty Start Date"
+  },
+  {
+   "columns": 3,
+   "fieldname": "warranty_end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Warranty End Date"
+  },
+  {
+   "columns": 2,
+   "default": "0",
+   "fieldname": "full_warranty",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Full Warranty"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-29 19:30:44.834065",
+ "modified_by": "Administrator",
+ "module": "Maintenance System",
+ "name": "Maintenance Item Warranty Bearing",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
